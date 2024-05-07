@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Context docBase="C:\Users\fmdia\OneDrive\Escritorio\Fran\gimnasio-fry-backend\CatalinaBase\webapps">
+<Context docBase="C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\webapps">
   <Resources cacheMaxSize="10240">
-    <PreResources base="C:/Users/fmdia/OneDrive/Escritorio/Fran/gimnasio-fry-backend/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PreResources base="C:/Users/fmdia/OneDrive/Escritorio/Fran/GimnasioFry/gimnasio-fry-backend/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
     <PostResources base="C:/Users/fmdia/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.2.5/spring-boot-starter-data-jpa-3.2.5.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/spring-boot-starter-data-jpa-3.2.5.jar"/>
     <PostResources base="C:/Users/fmdia/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.2.5/spring-boot-starter-aop-3.2.5.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/spring-boot-starter-aop-3.2.5.jar"/>
     <PostResources base="C:/Users/fmdia/.m2/repository/org/aspectj/aspectjweaver/1.9.22/aspectjweaver-1.9.22.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/aspectjweaver-1.9.22.jar"/>

@@ -621,3 +621,167 @@
 30-Apr-2024 17:34:49.509 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
 30-Apr-2024 17:34:49.516 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 30-Apr-2024 17:34:49.518 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:40:09.415 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.88
+30-Apr-2024 17:40:09.417 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 9 2024 13:22:30 UTC
+30-Apr-2024 17:40:09.417 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.88.0
+30-Apr-2024 17:40:09.417 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+30-Apr-2024 17:40:09.417 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+30-Apr-2024 17:40:09.417 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+30-Apr-2024 17:40:09.417 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\fmdia\.jdks\corretto-17.0.11
+30-Apr-2024 17:40:09.417 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.11+9-LTS
+30-Apr-2024 17:40:09.418 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Amazon.com Inc.
+30-Apr-2024 17:40:09.418 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase
+30-Apr-2024 17:40:09.418 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Tomcat 9.0
+30-Apr-2024 17:40:09.424 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2024 17:40:09.424 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2024 17:40:09.424 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+30-Apr-2024 17:40:09.424 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Apr-2024 17:40:09.424 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2024 17:40:09.425 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Tomcat 9.0
+30-Apr-2024 17:40:09.425 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase
+30-Apr-2024 17:40:09.425 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\temp
+30-Apr-2024 17:40:09.426 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\conf\logging.properties
+30-Apr-2024 17:40:09.426 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 17:40:09.426 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=60463:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin
+30-Apr-2024 17:40:09.426 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+30-Apr-2024 17:40:09.429 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [C:\Users\fmdia\.jdks\corretto-17.0.11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Maven\apache-maven-3.8.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\fmdia\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin;;C:\Users\fmdia\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fmdia\AppData\Roaming\npm;C:\Program Files\heroku\bin;.]
+30-Apr-2024 17:40:09.620 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+30-Apr-2024 17:40:09.639 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [393] milliseconds
+30-Apr-2024 17:40:09.698 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+30-Apr-2024 17:40:09.698 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 17:40:09.705 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\conf\Catalina\localhost\gimnasio-fry-backend-0.0.1-SNAPSHOT.xml]
+30-Apr-2024 17:40:09.739 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor Se ha especificado un docBase [C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\webapps] dentro del appBase de la máquina y será ignorado
+30-Apr-2024 17:40:10.040 ADVERTENCIA [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+30-Apr-2024 17:40:10.065 ADVERTENCIA [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+30-Apr-2024 17:40:12.796 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Apr-2024 17:40:12.866 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\conf\Catalina\localhost\gimnasio-fry-backend-0.0.1-SNAPSHOT.xml] has finished in [3.160] ms
+30-Apr-2024 17:40:12.869 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:40:12.900 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [3261] milliseconds
+30-Apr-2024 17:44:46.771 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:44:46.779 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+30-Apr-2024 17:44:46.785 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:44:46.788 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:44:47.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.88
+30-Apr-2024 17:44:47.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 9 2024 13:22:30 UTC
+30-Apr-2024 17:44:47.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.88.0
+30-Apr-2024 17:44:47.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+30-Apr-2024 17:44:47.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+30-Apr-2024 17:44:47.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+30-Apr-2024 17:44:47.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\fmdia\.jdks\corretto-17.0.11
+30-Apr-2024 17:44:47.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.11+9-LTS
+30-Apr-2024 17:44:47.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Amazon.com Inc.
+30-Apr-2024 17:44:47.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase
+30-Apr-2024 17:44:47.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Tomcat 9.0
+30-Apr-2024 17:44:47.730 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2024 17:44:47.731 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2024 17:44:47.731 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+30-Apr-2024 17:44:47.731 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Apr-2024 17:44:47.731 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2024 17:44:47.731 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Tomcat 9.0
+30-Apr-2024 17:44:47.731 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase
+30-Apr-2024 17:44:47.731 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\temp
+30-Apr-2024 17:44:47.731 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\conf\logging.properties
+30-Apr-2024 17:44:47.731 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 17:44:47.732 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=60516:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin
+30-Apr-2024 17:44:47.732 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+30-Apr-2024 17:44:47.734 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [C:\Users\fmdia\.jdks\corretto-17.0.11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Maven\apache-maven-3.8.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\fmdia\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin;;C:\Users\fmdia\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fmdia\AppData\Roaming\npm;C:\Program Files\heroku\bin;.]
+30-Apr-2024 17:44:47.911 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+30-Apr-2024 17:44:47.927 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [343] milliseconds
+30-Apr-2024 17:44:47.965 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+30-Apr-2024 17:44:47.965 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 17:44:47.973 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\conf\Catalina\localhost\gimnasio-fry-backend-0.0.1-SNAPSHOT.xml]
+30-Apr-2024 17:44:48.001 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor Se ha especificado un docBase [C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\webapps] dentro del appBase de la máquina y será ignorado
+30-Apr-2024 17:44:48.274 ADVERTENCIA [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+30-Apr-2024 17:44:48.295 ADVERTENCIA [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+30-Apr-2024 17:44:51.007 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Apr-2024 17:44:51.078 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\conf\Catalina\localhost\gimnasio-fry-backend-0.0.1-SNAPSHOT.xml] has finished in [3.103] ms
+30-Apr-2024 17:44:51.081 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:44:51.116 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [3189] milliseconds
+30-Apr-2024 17:45:51.143 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/gimnasio-fry-backend-0.0.1-SNAPSHOT]
+30-Apr-2024 17:45:51.144 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/gimnasio-fry-backend-0.0.1-SNAPSHOT]
+30-Apr-2024 17:45:53.585 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:45:53.594 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+30-Apr-2024 17:45:57.024 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.88
+30-Apr-2024 17:45:57.028 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 9 2024 13:22:30 UTC
+30-Apr-2024 17:45:57.028 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.88.0
+30-Apr-2024 17:45:57.028 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+30-Apr-2024 17:45:57.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+30-Apr-2024 17:45:57.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+30-Apr-2024 17:45:57.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\fmdia\.jdks\corretto-17.0.11
+30-Apr-2024 17:45:57.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.11+9-LTS
+30-Apr-2024 17:45:57.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Amazon.com Inc.
+30-Apr-2024 17:45:57.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase
+30-Apr-2024 17:45:57.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Tomcat 9.0
+30-Apr-2024 17:45:57.037 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2024 17:45:57.038 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2024 17:45:57.038 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+30-Apr-2024 17:45:57.038 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Apr-2024 17:45:57.038 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2024 17:45:57.038 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Tomcat 9.0
+30-Apr-2024 17:45:57.038 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase
+30-Apr-2024 17:45:57.038 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\temp
+30-Apr-2024 17:45:57.039 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\conf\logging.properties
+30-Apr-2024 17:45:57.039 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 17:45:57.039 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=60528:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin
+30-Apr-2024 17:45:57.040 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+30-Apr-2024 17:45:57.049 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [C:\Users\fmdia\.jdks\corretto-17.0.11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Maven\apache-maven-3.8.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\fmdia\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin;;C:\Users\fmdia\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fmdia\AppData\Roaming\npm;C:\Program Files\heroku\bin;.]
+30-Apr-2024 17:45:57.256 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+30-Apr-2024 17:45:57.280 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [433] milliseconds
+30-Apr-2024 17:45:57.348 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+30-Apr-2024 17:45:57.349 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 17:45:57.360 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\conf\Catalina\localhost\gimnasio-fry-backend-0.0.1-SNAPSHOT.xml]
+30-Apr-2024 17:45:57.385 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor Se ha especificado un docBase [C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\webapps] dentro del appBase de la máquina y será ignorado
+30-Apr-2024 17:45:59.219 ADVERTENCIA [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+30-Apr-2024 17:45:59.243 ADVERTENCIA [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+30-Apr-2024 17:46:02.277 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Apr-2024 17:46:02.344 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\conf\Catalina\localhost\gimnasio-fry-backend-0.0.1-SNAPSHOT.xml] has finished in [4.983] ms
+30-Apr-2024 17:46:02.350 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:46:02.382 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [5101] milliseconds
+30-Apr-2024 17:52:12.843 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:52:12.851 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+30-Apr-2024 17:52:12.858 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:52:12.861 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:52:13.975 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.88
+30-Apr-2024 17:52:13.978 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 9 2024 13:22:30 UTC
+30-Apr-2024 17:52:13.979 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.88.0
+30-Apr-2024 17:52:13.979 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+30-Apr-2024 17:52:13.979 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+30-Apr-2024 17:52:13.979 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+30-Apr-2024 17:52:13.979 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\fmdia\.jdks\corretto-17.0.11
+30-Apr-2024 17:52:13.979 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.11+9-LTS
+30-Apr-2024 17:52:13.979 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Amazon.com Inc.
+30-Apr-2024 17:52:13.979 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase
+30-Apr-2024 17:52:13.979 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Tomcat 9.0
+30-Apr-2024 17:52:13.987 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2024 17:52:13.988 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2024 17:52:13.988 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+30-Apr-2024 17:52:13.988 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Apr-2024 17:52:13.988 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2024 17:52:13.988 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Tomcat 9.0
+30-Apr-2024 17:52:13.988 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase
+30-Apr-2024 17:52:13.989 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\temp
+30-Apr-2024 17:52:13.989 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\conf\logging.properties
+30-Apr-2024 17:52:13.989 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 17:52:13.990 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=60602:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin
+30-Apr-2024 17:52:13.990 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+30-Apr-2024 17:52:13.994 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [C:\Users\fmdia\.jdks\corretto-17.0.11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Maven\apache-maven-3.8.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\fmdia\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin;;C:\Users\fmdia\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fmdia\AppData\Roaming\npm;C:\Program Files\heroku\bin;.]
+30-Apr-2024 17:52:14.180 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+30-Apr-2024 17:52:14.198 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [365] milliseconds
+30-Apr-2024 17:52:14.271 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+30-Apr-2024 17:52:14.272 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 17:52:14.283 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\conf\Catalina\localhost\gimnasio-fry-backend-0.0.1-SNAPSHOT.xml]
+30-Apr-2024 17:52:14.312 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor Se ha especificado un docBase [C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\webapps] dentro del appBase de la máquina y será ignorado
+30-Apr-2024 17:52:14.610 ADVERTENCIA [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+30-Apr-2024 17:52:14.635 ADVERTENCIA [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+30-Apr-2024 17:52:17.244 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Apr-2024 17:52:17.312 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\fmdia\OneDrive\Escritorio\Fran\GimnasioFry\gimnasio-fry-backend\CatalinaBase\conf\Catalina\localhost\gimnasio-fry-backend-0.0.1-SNAPSHOT.xml] has finished in [3.029] ms
+30-Apr-2024 17:52:17.315 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:52:17.346 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [3147] milliseconds
+30-Apr-2024 17:53:01.709 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:53:01.719 INFORMACIÓN [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+30-Apr-2024 17:53:01.726 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:53:01.730 INFORMACIÓN [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
