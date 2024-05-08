@@ -2,11 +2,11 @@
     position: relative;
     display: inline-block;
   }
-  
+
   .input-with-image input {
     padding-right: 30px; /* Ajusta el espacio para la imagen */
   }
-  
+
   .input-with-image .image {
     position: absolute;
     top: 50%;
@@ -14,4 +14,8 @@
     transform: translateY(-50%);
     width: 20px; /* Ajusta el tamaño de la imagen según sea necesario */
   }
-  
+
+  .mat-icon {
+    font-size: 24px; /* Cambiar tamaño del icono */
+    color: rgb(88, 88, 88); /* Cambiar color del icono */
+  }

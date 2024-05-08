@@ -1,4 +1,9 @@
-<div class="login-page-container">
-    <h1>Login</h1>
-        <app-input-imagen></app-input-imagen>
+<div class="login-container">
+  <div class="login-box">
+    <h2>Login</h2>
+    <div class="input-wrapper">
+      <app-input-imagen [errorMessage]="'Ingrese su correo electrónico'" [iconSrc]="'account_circle'"></app-input-imagen>
+      <app-input-imagen [errorMessage]="'Ingrese su contraseña'" [iconSrc]="'lock'" [type]="'password'"></app-input-imagen>
+    </div>
+  </div>
 </div>

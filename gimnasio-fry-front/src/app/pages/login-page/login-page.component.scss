@@ -1,0 +1,22 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background-color: #f0f0f0; /* Color de fondo gris claro */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra mínima */
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+h2{
+  text-align: center;
+}

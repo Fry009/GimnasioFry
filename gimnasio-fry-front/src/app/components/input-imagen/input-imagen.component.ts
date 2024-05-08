@@ -12,7 +12,8 @@ import { MatInputModule } from '@angular/material/input';  // Importa MatInputMo
 })
 export class InputImagenComponent {
   @Input() errorMessage: string = ''; // Propiedad de entrada para el mensaje de error
-  @Input() imageSrc: string = ''; // Propiedad de entrada para la ruta de la imagen
+  @Input() iconSrc: string = ''; // Propiedad de entrada para la ruta de la imagen
+  @Input() type: string = 'text';
 
   showError: boolean = false;
 

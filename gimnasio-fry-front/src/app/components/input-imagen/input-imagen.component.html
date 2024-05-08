@@ -1,13 +1,11 @@
 <div class="input-with-image">
-    <mat-form-field appearance="fill" class="input-field">
-      <input matInput placeholder="Usuario" (input)="onInput($event)">
-      <mat-icon matSuffix>insert_photo</mat-icon>
-    </mat-form-field>
-    @if (imageSrc) {
-      <img [src]="imageSrc" alt="Imagen" class="imagen">
+  <mat-form-field appearance="fill" class="input-field">
+    <input matInput placeholder="Usuario" type="{{type}}" (input)="onInput($event)" />
+    @if(iconSrc){
+    <mat-icon matSuffix>{{ iconSrc }}</mat-icon>
     }
-    @if (showError) {
-      <div class="error-message">{{ errorMessage }}</div>
-    }
-
-  </div>
+  </mat-form-field>
+  @if (showError) {
+  <div class="error-message">{{ errorMessage }}</div>
+  }
+</div>
