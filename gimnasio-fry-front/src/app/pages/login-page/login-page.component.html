@@ -1,12 +1,26 @@
 <div class="login-container">
   <div class="login-box">
     <h2>Login</h2>
-    <div class="input-wrapper">
-      <app-input-imagen [errorMessage]="'Ingrese su correo electrónico'" [iconSrc]="'account_circle'" [placeholder]="'Usuario'"></app-input-imagen>
-      <app-input-imagen [errorMessage]="'Ingrese su contraseña'" [iconSrc]="'lock'" [type]="'password'" [placeholder]="'Contraseña'"></app-input-imagen>
-      <div class="button-wrapper">
-        <app-boton-primario [textoBoton]="'Aceptar'" (clickEvent)="doLogin()"></app-boton-primario>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div class="input-wrapper">
+        <app-input-imagen
+          [formControl]="usuarioControl"
+          [errorMessage]="'Ingrese su correo electrónico'"
+          [iconSrc]="'account_circle'"
+          [placeholder]="'Usuario'"></app-input-imagen>
+
+        <app-input-imagen
+          [formControl]="contrasenaControl"
+          [errorMessage]="'Ingrese su contraseña'"
+          [iconSrc]="'lock'"
+          [type]="'password'"
+          [placeholder]="'Contraseña'"></app-input-imagen>
+
+        <div class="button-wrapper">
+          <!-- Cambiado para que use el evento de submit del formulario -->
+          <app-boton-primario type="submit" [textoBoton]="'Aceptar'">Aceptar</app-boton-primario>
+        </div>
       </div>
-    </div>
+    </form>
   </div>
 </div>
