@@ -1,0 +1,17 @@
+.input-with-image {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .input-with-image input {
+    padding-right: 30px; /* Ajusta el espacio para la imagen */
+  }
+  
+  .input-with-image .image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 20px; /* Ajusta el tamaño de la imagen según sea necesario */
+  }
+  

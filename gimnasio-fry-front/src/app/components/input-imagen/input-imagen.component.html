@@ -1,1 +1,13 @@
-<p>input-imagen works!</p>
+<div class="input-with-image">
+    <mat-form-field appearance="fill" class="input-field">
+      <input matInput placeholder="Usuario" (input)="onInput($event)">
+      <mat-icon matSuffix>insert_photo</mat-icon>
+    </mat-form-field>
+    @if (imageSrc) {
+      <img [src]="imageSrc" alt="Imagen" class="imagen">
+    }
+    @if (showError) {
+      <div class="error-message">{{ errorMessage }}</div>
+    }
+
+  </div>
