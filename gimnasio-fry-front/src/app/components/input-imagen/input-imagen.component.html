@@ -1,6 +1,11 @@
 <div class="input-with-image">
   <mat-form-field appearance="fill" class="input-field">
-    <input matInput placeholder="Usuario" type="{{type}}" (input)="onInput($event)" />
+    <input
+      matInput
+      placeholder="{{placeholder}}"
+      type="{{ type }}"
+      (input)="onInput($event)"
+    />
     @if(iconSrc){
     <mat-icon matSuffix>{{ iconSrc }}</mat-icon>
     }

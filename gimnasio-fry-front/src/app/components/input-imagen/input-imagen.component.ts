@@ -14,6 +14,7 @@ export class InputImagenComponent {
   @Input() errorMessage: string = ''; // Propiedad de entrada para el mensaje de error
   @Input() iconSrc: string = ''; // Propiedad de entrada para la ruta de la imagen
   @Input() type: string = 'text';
+  @Input() placeholder: string = '';
 
   showError: boolean = false;
 

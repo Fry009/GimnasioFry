@@ -2,8 +2,11 @@
   <div class="login-box">
     <h2>Login</h2>
     <div class="input-wrapper">
-      <app-input-imagen [errorMessage]="'Ingrese su correo electrónico'" [iconSrc]="'account_circle'"></app-input-imagen>
-      <app-input-imagen [errorMessage]="'Ingrese su contraseña'" [iconSrc]="'lock'" [type]="'password'"></app-input-imagen>
+      <app-input-imagen [errorMessage]="'Ingrese su correo electrónico'" [iconSrc]="'account_circle'" [placeholder]="'Usuario'"></app-input-imagen>
+      <app-input-imagen [errorMessage]="'Ingrese su contraseña'" [iconSrc]="'lock'" [type]="'password'" [placeholder]="'Contraseña'"></app-input-imagen>
+      <div class="button-wrapper">
+        <app-boton-primario [textoBoton]="'Aceptar'" (clickEvent)="doLogin()"></app-boton-primario>
+      </div>
     </div>
   </div>
 </div>
