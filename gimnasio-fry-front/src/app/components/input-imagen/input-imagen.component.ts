@@ -26,12 +26,14 @@ export class InputImagenComponent {
 
   // Valor del input
   inputValue: string = '';
+  showError: boolean = false;
+
 
   // Función para notificar cambios en el valor
-  private onChange: (value: string) => void = () => {};
-  private onTouch: () => void = () => {};
+  onChange: (value: string) => void = () => {};
+  onTouch: () => void = () => {};
 
-  showError: boolean = false;
+
 
   // Implementación de ControlValueAccessor
   writeValue(value: string): void {
@@ -55,6 +57,7 @@ export class InputImagenComponent {
 
   onInput(event: any) {
     // Aquí puedes agregar tu lógica para validar el valor del input
+    debugger;
     const inputValue = event.target.value;
     this.showError = inputValue.length < 3; // Muestra el error si la longitud del valor es menor que 3
   }
